@@ -7,7 +7,7 @@ module.exports = function getDistanceFromLatLonInKm(
   pointCoordinates
 ) {
   const radius = 6371;
-
+ console.log(pointCoordinates);
   const { latitude: lat1, longitude: lon1 } = centerCoordinates;
   const { latitude: lat2, longitude: lon2 } = pointCoordinates;
 
